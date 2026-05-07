@@ -1,0 +1,17 @@
+{
+    "service": "sre-microservice",
+    "slo": {
+        "availability_target": 99.0,
+        "latency_threshold_ms": 300
+    },
+    "metrics": {
+        "availability": 91.0,
+        "latency_ms": 650,
+        "error_rate": 12
+    },
+    "error_budget": {
+        "total_budget": 100,
+        "consumed": 85,
+        "burn_rate": 3.5
+    }
+}
